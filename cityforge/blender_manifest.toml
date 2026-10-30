@@ -1,0 +1,25 @@
+schema_version = "1.0.0"
+
+id = "cityforge"
+version = "1.0.0"
+name = "CityForge"
+tagline = "Procedural city asset generator for game development"
+maintainer = "CityForge Team"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+# Legacy (bl_info) compatibility fallback for older install flows is kept in __init__.py
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = [
+  "Add-on",
+  "Modeling",
+  "Material",
+  "Game Asset Creation",
+]
+
+[platform]
+# Runs cross-platform; Linux/Windows/macOS all supported by pure Python.
